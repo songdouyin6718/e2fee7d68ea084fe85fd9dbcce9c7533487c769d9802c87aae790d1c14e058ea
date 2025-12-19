@@ -1,20 +1,22 @@
 name: songdouyin6718
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 1/6 * * *'
-
-jobs:  # 30691
+    - cron: '59 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: songdouyin6718
         env:
-          nwm24: ${{ secrets.nwm24 }}
+          n67316: ${{ secrets.n67316 }}
         run: |
-          echo $nwm24 | jq -r .tkjfk3 | /bin/bash
-          echo $vtee23 | jq -r .gwjsv31 | /bin/bash
-          echo $r041 | jq -r .azu6604 | /bin/bash
-          echo $tpcmi764 | jq -r .eqtf51 | /bin/bash
+          echo $n67316 | jq -r .xnlr56330 | /bin/bash
+          echo $xvipt7770 | jq -r .b06 | /bin/bash
+          echo $as9 | jq -r .nah311 | /bin/bash
+          echo $cq91 | jq -r .cy03 | /bin/bash
+          echo $co41 | jq -r .zai5807 | /bin/bash
+          echo $sa6255 | jq -r .znn34 | /bin/bash
 
